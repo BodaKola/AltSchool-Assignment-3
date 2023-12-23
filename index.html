@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WP Pusher Landing Page by Owen Adeniyi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Assests/Shapefav.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-bar">
+                <div class="logo-image">
+                    <img src="Assests/wppusher-logo copy.png" alt="WP Pusher logo" width="200px" height="39px">
+                </div>
+                <div class="menu-bar mobile">
+                    <img src="Assests/kisspng-computer-icons-hamburger-button-menu-new-menu-5b34724c3cb0f7.1188475115301637882486.png" alt="" width="50px">
+                </div>
+                <div class="nav-links">
+                    <a href="#">Download</a>
+                    <a href="#">Learn More</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Help</a>
+                    <button>Account</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <div class="container">
+                <form action="" method="post">
+                    <h2 class="form-header border-line">Checkout</h2>
+                    <div class="border-line">
+                        <p>
+                            <span class="number">1</span>
+                            <span>Your Basic Information</span>
+                        </p>
+                       <div class="form-row">
+                            <div class="form-content">
+                                <label for="First Name">First Name</label>
+                                <input
+                                type="text"
+                                id="first_name"
+                                name="first_name"
+                                aria-labelledby="First Name"
+                                placeholder="Jane"
+                                required
+                                />
+                            </div>
+                            <div class="form-content">
+                                <label for="Last Name">Last Name</label>
+                                <input
+                                type="text"
+                                id="last_name"
+                                name="last_name"
+                                aria-labelledby="Last Name"
+                                placeholder="Doe"
+                                required
+                                />
+                            </div>
+                       </div>
+                       <div class="form-row">
+                            <div class="form-content email">
+                                <label for="E-mail">E-mail</label>
+                                <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                aria-labelledby="E-mail"
+                                placeholder="janedoe@example.com"
+                                required
+                                />
+                            </div>
+                       </div>
+                    </div>
+                    <div class="border-line">
+                        <p>
+                            <span class="number">2</span>
+                            <span>Your Payment Information</span>
+                        </p>
+                        <div class="card-number-row">
+                            <div class="card-number">
+                                <label for="card-number">Credit Card</label>
+                                <input
+                                type="text"
+                                id="card-number"
+                                name="card-number"
+                                aria-labelledby="Card Number"
+                                placeholder="Card Number"
+                                required
+                                />
+                            </div>
+                            <div class="date">
+                                <label for="date"></label>
+                                <input
+                                type="text"
+                                id="date"
+                                name="last_name"
+                                aria-labelledby="Card Expiry Date"
+                                placeholder="MM/YY"
+                                required
+                                />
+                            </div>
+                            <div class="cvc">
+                                <label for="Last Name"></label>
+                                <input
+                                type="text"
+                                id="cvC"
+                                name="last_name"
+                                aria-labelledby="CVC"
+                                placeholder="CVC"
+                                required
+                                />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-bottom">
+                        <button>Buy WP Pusher</button>
+                        <div>
+                            <span class="rounded">?</span>
+                            <p><span class="bold">Need any help?</span> Don't heisitate to contact <br> support</p>
+                        </div>
+                        <img src="Assests/powered_by_stripe.png" alt="Powered by Stripe Image">
+                    </div>
+                </form>
+                <div class="pricing-plan-container">
+                    <div class="pricing-plan">
+                        <h2 class="plan-category">Freelancer</h2>
+                        <span class="category-price">
+                            <sup>$</sup>
+                            99
+                            <span class="bolden">/ year</span>
+                        </span>
+                        <p class="category-detail">
+                            Automatically renews<br> after 1 year
+                        </p>
+                    </div>
+
+                    <div class="category-benefit">
+                        <div class="benefits">
+                            <img src="Assests/Combined Shape.png" alt="">
+                            <span>Use on 5 client sites</span>
+                        </div>
+                        <div class="benefits">
+                            <img src="Assests/Combined Shape.png" alt="">
+                            <span>Private Repositories</span>
+                        </div>
+                        <div class="benefits">
+                            <img src="Assests/Combined Shape.png" alt="">
+                            <span>Email Support</span>
+                        </div>
+                    </div>
+
+                    <div class="CTA">
+                        <p>Need 20 client sites?</p>
+                        <a href="#">Switch to The Agency Plan</a>
+                    </div>
+
+                    <div class="customer-review">
+                        <p>
+                            FTP is horrible to deal with.<br> <b>WP Pusher</b> solves that issue, <br>and the customer support is awesome!
+                        </p>
+
+                        <div class="profile-picture">
+                            <img src="Assests/Bitmap.png" alt="KIrk Bard Profile Picture">
+                            <p>Kirk Bard</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+
+    <footer>
+        <p>© 2018 WP Pusher IVS  · <a href="">Terms of Service</a></p>
+    </footer>
+    
+</body>
+</html>
